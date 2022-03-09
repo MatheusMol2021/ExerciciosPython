@@ -1,20 +1,17 @@
 
-# a = float(input("Qual o valor inicial da dívida? :"))
-a = 2000.00
-# b = float(input("Qual a taxa mensal de juros?: "))
-b = 1
-# c = float(input("Qual o valor mensal que será pago?: "))
-c = 100.00
+a = float(input("Qual o valor da dívida?: "))
+b = float(input("qual o juro mensal?: "))
+c = float(input("Qual o valor pago mensalmente?: "))
 
-divida = (a + (a * (b/100)))
-meses = 0
-juros = 0
-
-while divida > 0:
-    meses = meses + 1
-    juros = (juros+(divida * (b/100)))
-    divida = ((divida + (divida * (b/100))) - c)
+x = 1 # contador
+y = c
 
 
-print(f'A quantidade de meses foi {meses} meses')
-print(f'O valor total de juros foi de R${juros:5.2f}')
+while a > y:
+    x = x + 1
+    montante = (a * (b/100))
+    a = a - c
+    
+    print(f" O nº de meses será {x-1}")
+    print(f"O total pago será {}")
+    print(f"total de juros pago é {}")

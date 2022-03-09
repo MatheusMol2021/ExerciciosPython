@@ -1,4 +1,1 @@
-
-a = "FALHA"
-
-print(len(a))
+2+3

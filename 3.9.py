@@ -1,5 +1,4 @@
 
-
 dias = int(input("Escreva quantidade de dias: "))
 horas = int(input("Escreva a quantidade de horas: "))
 minutos = int(input("Escreva a quantidade de minutos: "))
